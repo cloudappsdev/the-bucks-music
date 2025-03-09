@@ -1,0 +1,29 @@
+
+.outerBrd {
+    border: 5px solid #00DEFF;
+}
+
+.innerBrd {
+    border: 5px solid #FCFCFC;
+}
+
+table.mtbl {
+    width: 95%;
+    border-collapse: collapse;
+
+    .mrow > td:first-child {
+        padding-left: 5px;
+    }
+    
+    .mrow {
+        td {
+            font-size: large;
+            font-weight: 800;
+            border: 2px solid blue;
+            padding: 8px;
+            text-align: left;
+        }
+    }
+
+}
+
