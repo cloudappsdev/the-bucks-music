@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.scss";
 import thebucksLogo from "../assets/images/0bda7c26-c65a-48bf-b6c0-316887a25a8c.jpeg";
 import Members from "./Members";
@@ -22,10 +21,7 @@ const Home = () => {
             height="315"
             src="https://www.youtube.com/embed/mL7u1dGVx-w?si=_s5aFPdgqZme_TnP"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
           ></iframe>
         </div>
         <div>

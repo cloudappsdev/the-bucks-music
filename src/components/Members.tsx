@@ -1,4 +1,3 @@
-import React from "react";
 import "./Members.scss";
 
 const Members = () => {
