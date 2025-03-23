@@ -6,10 +6,12 @@ import Contact from "./Contact";
 const Home = () => {
   return (
     <>
-      <div>
+      <div className="home">
         <h1>The Bucks - Band</h1>
         <h2 className="shFont">You Know, Good Old Rocking Music!</h2>
-        <img src={thebucksLogo} />
+        <div className="logo-container">
+          <img src={thebucksLogo} />
+        </div>
 
         <div>
           <br />
