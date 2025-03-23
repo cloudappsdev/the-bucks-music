@@ -4,6 +4,16 @@
 }
 
 .logo-container {
+    @media screen and (min-width: 480px) {
+        width: 440px;
+        margin: 8px;
+    }
+
+    @media screen and (min-width: 576px) {
+          width: 530px;
+          margin: 8px;
+    }
+
     @media screen and (min-width: 768px) {
         width: 650px;
         height: 408px;
