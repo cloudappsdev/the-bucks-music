@@ -7,17 +7,32 @@
     @media screen and (min-width: 480px) {
         width: 440px;
         margin: 8px;
+
+        .logo {
+            width: 424px;
+            height: 238px;
+        }
     }
 
     @media screen and (min-width: 576px) {
-          width: 530px;
-          margin: 8px;
+        width: 530px;
+        margin: 8px;
+
+        .logo {
+            width: 514px;
+            height: 263px;
+        }
     }
 
     @media screen and (min-width: 768px) {
         width: 650px;
         height: 408px;
         margin: 8px;
+
+        .logo {
+            width: 634px;
+            height: 325px;
+        }        
     }
 
     @media screen and (min-width: 890px) {

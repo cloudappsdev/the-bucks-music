@@ -10,7 +10,7 @@ const Home = () => {
         <h1>The Bucks - Band</h1>
         <h2 className="shFont">You Know, Good Old Rocking Music!</h2>
         <div className="logo-container">
-          <img src={thebucksLogo} />
+          <img className="logo" src={thebucksLogo} />
         </div>
 
         <div>
