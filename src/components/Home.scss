@@ -5,28 +5,7 @@
 
 .logo-container {
 
-    @media screen and (min-width: 576px) {
-        width: 566px;
-        margin: 8px;
-
-        .logo {
-            width: 550px;
-            height: 270px;
-        }
-    }
-
-    @media screen and (min-width: 768px) {
-        width: 650px;
-        height: 408px;
-        margin: 8px;
-
-        .logo {
-            width: 634px;
-            height: 325px;
-        }        
-    }
-
-    @media screen and (min-width: 890px) {
+    @media screen and (min-width: 860px) {
         width: 848px;
         height: 464px;
         margin: 8px;

@@ -4,6 +4,7 @@ import thebucksLogo from "../assets/images/0bda7c26-c65a-48bf-b6c0-316887a25a8c.
 import Members from "./Members";
 import Contact from "./Contact";
 import BandEvents from "./BandEvents";
+import Shows from "./Shows";
 
 const Home = () => {
   return (
@@ -45,6 +46,9 @@ const Home = () => {
         </div>
         <div>
           <Contact />
+        </div>
+        <div>
+          <Shows />
         </div>
         <div>
           <BandEvents />
