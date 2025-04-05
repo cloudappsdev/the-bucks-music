@@ -1,0 +1,23 @@
+a {
+    color: #78CBFF; /* Light blue color that stands out on dark backgrounds */
+    text-decoration: none; /* Removes the underline */
+    transition: color 0.2s ease; /* Smooth transition for hover effect */
+  }
+  
+  a:hover {
+    color: #FFFFFF; /* White on hover for contrast */
+    text-decoration: underline; /* Adds underline on hover for clarity */
+  }
+  
+  a:visited {
+    color: #C39EFF; /* Light purple for visited links */
+  }
+  
+  a:active {
+    color: #FF9E9E; /* Light red when clicked */
+  }
+  
+  a:focus {
+    outline: 2px solid #78CBFF; /* Accessibility focus outline */
+    outline-offset: 2px;
+  }

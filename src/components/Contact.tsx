@@ -9,6 +9,10 @@ const Contact = () => {
         <div>
           <table className="ctbl">
             <tr className="crow">
+              <td>Booking</td>
+              <td>312-909-9332</td>
+            </tr>
+            <tr className="crow">
               <td>Neil</td>
               <td>708-745-1194</td>
             </tr>
@@ -18,7 +22,7 @@ const Contact = () => {
             </tr>
             <tr className="crow">
               <td>RJ</td>
-              <td>312-909-9332</td>
+              <td>847-701-5809</td>
             </tr>
             <tr className="crow">
               <td>RJ</td>

@@ -4,23 +4,14 @@
 }
 
 .logo-container {
-    @media screen and (min-width: 480px) {
-        width: 440px;
-        margin: 8px;
-
-        .logo {
-            width: 424px;
-            height: 238px;
-        }
-    }
 
     @media screen and (min-width: 576px) {
-        width: 530px;
+        width: 566px;
         margin: 8px;
 
         .logo {
-            width: 514px;
-            height: 263px;
+            width: 550px;
+            height: 270px;
         }
     }
 
@@ -45,4 +36,16 @@
 .shFont {
     
     font-family: 'Baloo', sans-serif;
+}
+
+.linkHeading {
+    font-family: 'Permanent Marker', sans-serif;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #F6F1DD;
+}
+
+.linkBoost {
+    font-size: 18px;
 }

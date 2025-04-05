@@ -1,7 +1,9 @@
 import "./Home.scss";
+import "./home-dark-link.scss";
 import thebucksLogo from "../assets/images/0bda7c26-c65a-48bf-b6c0-316887a25a8c.jpeg";
 import Members from "./Members";
 import Contact from "./Contact";
+import BandEvents from "./BandEvents";
 
 const Home = () => {
   return (
@@ -27,10 +29,25 @@ const Home = () => {
           ></iframe>
         </div>
         <div>
+          <div className="linkHeading">
+            See and Listen to The Bucks Sample Clip on YouTube
+          </div>
+          <a
+            target="_blank"
+            className="linkBoost"
+            href="https://www.youtube.com/embed/mL7u1dGVx-w?si=_s5aFPdgqZme_TnP"
+          >
+            The Bucks Sample Clip on YouTube (in new window / full-screen)
+          </a>
+        </div>
+        <div>
           <Members />
         </div>
         <div>
           <Contact />
+        </div>
+        <div>
+          <BandEvents />
         </div>
       </div>
     </>
