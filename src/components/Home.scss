@@ -1,20 +1,60 @@
 
 .home {
     background-color: #242424;
+    color: #CCC;
+
+    .mainHdr {
+        color: #FFF;
+    }
+    
+
+    .shFont {
+        color: #00DEFF;
+        font-family: 'Baloo', sans-serif;
+    }
+
 }
 
 .logo-container {
 
+    margin: 0 auto;
+
+    @media screen and (min-width: 360px) {
+        width: 352px;
+        height: 192px;
+
+        .logo {
+            width: 352px;
+            height: 192px;
+        }
+    }
+
+    @media screen and (min-width: 576px) {
+        width: 560px;
+        height: 306px;
+
+        .logo {
+            width: 560px;
+            height: 306px;
+        }
+    }
+
+
+
+    @media screen and (min-width: 768px) {
+        width: 760px;
+        height: 416px;
+
+        .logo {
+            width: 760px;
+            height: 416px;
+        }        
+    }
+
     @media screen and (min-width: 860px) {
         width: 848px;
         height: 464px;
-        margin: 8px;
     }
-}
-
-.shFont {
-    
-    font-family: 'Baloo', sans-serif;
 }
 
 .linkHeading {
