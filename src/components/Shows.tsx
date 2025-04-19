@@ -5,7 +5,10 @@ const Shows = () => {
     <>
       <br />
       <div>
-        <h2>Upcoming Shows:</h2>
+        <div className="space-out tborder">
+          <span className="h2-alt">Upcoming Shows</span>
+          <button className="showButton">Show the Band Events Page</button>
+        </div>
         <div>
           <table className="ctbl">
             <tr className="crow">

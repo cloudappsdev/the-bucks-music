@@ -6,6 +6,33 @@
     border: 5px solid #FCFCFC;
 }
 
+.tborder {
+    width: 88%;
+    border: 1px solid peachpuff;
+    padding: 4px;
+}
+
+.showButton {
+    border: 1px solid rgb(8, 0, 255);
+    background-color: #FCFCFC;
+    color: #003268;
+    font-size: large;
+    font-weight: 700;
+}
+
+.space-out {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2-alt {
+    padding-left: 8px;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+
+
 table.mtbl {
     width: 95%;
     border-collapse: collapse;
